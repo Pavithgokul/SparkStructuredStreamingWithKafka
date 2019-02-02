@@ -24,7 +24,7 @@ libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.6"
 //libraryDependencies += "org.apache.spark" %% "spark-streaming-kafka" % "1.6.0"
 
 // https://mvnrepository.com/artifact/com.typesafe/config
-//libraryDependencies += "com.typesafe" % "config" % "1.2.1"
+  libraryDependencies += "com.typesafe" % "config" % "1.3.2"
 
 // https://mvnrepository.com/artifact/com.datastax.cassandra/cassandra-driver-core
 //libraryDependencies += "com.datastax.cassandra" % "cassandra-driver-core" % "3.6.0"
@@ -34,6 +34,12 @@ libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.6"
 
 // https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10
 libraryDependencies += "org.apache.spark" %% "spark-sql-kafka-0-10" % "2.3.1" % "provided"
+
+// https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
+libraryDependencies += "org.apache.kafka" % "kafka-clients" % "2.1.0"
+// https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
+libraryDependencies += "org.apache.kafka" % "kafka-clients" % "2.1.0"
+
 
 
 
