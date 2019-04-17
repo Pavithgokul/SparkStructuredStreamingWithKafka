@@ -15,13 +15,14 @@ libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.6"
 
 
 // https://mvnrepository.com/artifact/org.apache.spark/spark-streaming
-//libraryDependencies += "org.apache.spark" %% "spark-streaming" % "1.6.0" % "provided"
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "2.3.0"
 
 // https://mvnrepository.com/artifact/org.apache.spark/spark-hive
-//libraryDependencies += "org.apache.spark" %% "spark-hive" % "1.6.0" % "provided"
+libraryDependencies += "org.apache.spark" %% "spark-hive" % "2.3.0" % "provided"
 
-// https://mvnrepository.com/artifact/org.apache.spark/spark-streaming-kafka
-//libraryDependencies += "org.apache.spark" %% "spark-streaming-kafka" % "1.6.0"
+// https://mvnrepository.com/artifact/org.apache.spark/spark-streaming-kafka-0-10
+libraryDependencies += "org.apache.spark" %% "spark-streaming-kafka-0-10" % "2.3.0"
+
 
 // https://mvnrepository.com/artifact/com.typesafe/config
   libraryDependencies += "com.typesafe" % "config" % "1.3.2"
@@ -33,12 +34,12 @@ libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.6"
 //libraryDependencies += "com.datastax.spark" %% "spark-cassandra-connector" % "1.6.0"
 
 // https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10
-libraryDependencies += "org.apache.spark" %% "spark-sql-kafka-0-10" % "2.3.1" % "provided"
+libraryDependencies += "org.apache.spark" %% "spark-sql-kafka-0-10" % "2.3.0" % "provided"
 
 // https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
-libraryDependencies += "org.apache.kafka" % "kafka-clients" % "2.1.0"
+//libraryDependencies += "org.apache.kafka" % "kafka-clients" % "2.1.0"
 // https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
-libraryDependencies += "org.apache.kafka" % "kafka-clients" % "2.1.0"
+//libraryDependencies += "org.apache.kafka" % "kafka-clients" % "2.1.0"
 
 
 

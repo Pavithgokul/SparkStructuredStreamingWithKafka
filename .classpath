@@ -19,6 +19,11 @@
       <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/docs/jackson-mapper-asl-1.9.13-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
+  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.2.6-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.2.6.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.xerial.snappy/snappy-java/docs/snappy-java-1.1.2.6-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
   <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.4.1-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.apache.commons/commons-compress/docs/commons-compress-1.4.1-javadoc.jar!/"/>
@@ -289,6 +294,7 @@
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-launcher_2.11/srcs/spark-launcher_2.11-2.3.0-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-launcher_2.11/jars/spark-launcher_2.11-2.3.0.jar"/>
+  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-tags_2.11/srcs/spark-tags_2.11-2.3.0-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-tags_2.11/jars/spark-tags_2.11-2.3.0.jar"/>
   <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.spark-project.spark/unused/srcs/unused-1.0.0-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.spark-project.spark/unused/docs/unused-1.0.0-javadoc.jar!/"/>
@@ -329,19 +335,9 @@
       <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/net.java.dev.jets3t/jets3t/docs/jets3t-0.9.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.1-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.1.jar">
+  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.12-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.12.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.apache.httpcomponents/httpcore/docs/httpcore-4.4.1-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.apache.httpcomponents/httpclient/docs/httpclient-4.5-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.11-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.11.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.11-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.12-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/javax.activation/activation/srcs/activation-1.1.1-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/javax.activation/activation/jars/activation-1.1.1.jar"/>
@@ -378,6 +374,16 @@
   <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/com.ning/compress-lzf/srcs/compress-lzf-1.0.3-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/com.ning/compress-lzf/bundles/compress-lzf-1.0.3.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/com.ning/compress-lzf/docs/compress-lzf-1.0.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.lz4/lz4-java/srcs/lz4-java-1.4.0-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.lz4/lz4-java/jars/lz4-java-1.4.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.lz4/lz4-java/docs/lz4-java-1.4.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/com.github.luben/zstd-jni/srcs/zstd-jni-1.3.2-2-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/com.github.luben/zstd-jni/bundles/zstd-jni-1.3.2-2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/com.github.luben/zstd-jni/docs/zstd-jni-1.3.2-2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.roaringbitmap/RoaringBitmap/srcs/RoaringBitmap-0.5.11-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.roaringbitmap/RoaringBitmap/bundles/RoaringBitmap-0.5.11.jar">
@@ -655,33 +661,57 @@
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-6.0.6-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-6.0.6.jar"/>
+  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-streaming_2.11/srcs/spark-streaming_2.11-2.3.0-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.3.0.jar"/>
+  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-streaming-kafka-0-10_2.11/srcs/spark-streaming-kafka-0-10_2.11-2.3.0-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-streaming-kafka-0-10_2.11/jars/spark-streaming-kafka-0-10_2.11-2.3.0.jar"/>
+  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.apache.kafka/kafka-clients/srcs/kafka-clients-0.10.0.1-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-0.10.0.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.apache.kafka/kafka-clients/docs/kafka-clients-0.10.0.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/net.jpountz.lz4/lz4/srcs/lz4-1.3.0-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.3.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/net.jpountz.lz4/lz4/docs/lz4-1.3.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
   <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/com.typesafe/config/srcs/config-1.3.2-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/com.typesafe/config/bundles/config-1.3.2.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/com.typesafe/config/docs/config-1.3.2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.apache.kafka/kafka-clients/srcs/kafka-clients-2.1.0-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-2.1.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.apache.kafka/kafka-clients/docs/kafka-clients-2.1.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/com.github.luben/zstd-jni/srcs/zstd-jni-1.3.5-4-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/com.github.luben/zstd-jni/jars/zstd-jni-1.3.5-4.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/com.github.luben/zstd-jni/docs/zstd-jni-1.3.5-4-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.lz4/lz4-java/srcs/lz4-java-1.5.0-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.lz4/lz4-java/jars/lz4-java-1.5.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.lz4/lz4-java/docs/lz4-java-1.5.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/hadoop-master/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.7.2-sources.jar" kind="lib" path="/home/hadoop-master/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.7.2.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/hadoop-master/.ivy2/cache/org.xerial.snappy/snappy-java/docs/snappy-java-1.1.7.2-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-sql-kafka-0-10_2.11/jars/spark-sql-kafka-0-10_2.11-2.3.1.jar"/>
-  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-tags_2.11/jars/spark-tags_2.11-2.3.1.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-hive_2.11/jars/spark-hive_2.11-2.3.0.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/com.twitter/parquet-hadoop-bundle/jars/parquet-hadoop-bundle-1.6.0.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.spark-project.hive/hive-exec/jars/hive-exec-1.2.1.spark2.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/javolution/javolution/bundles/javolution-5.5.1.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/log4j/apache-log4j-extras/bundles/apache-log4j-extras-1.2.17.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.4.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.antlr/stringtemplate/jars/stringtemplate-3.2.1.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.antlr/ST4/jars/ST4-4.0.4.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.jodd/jodd-core/jars/jodd-core-3.5.2.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.datanucleus/datanucleus-core/jars/datanucleus-core-3.2.10.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.calcite/calcite-avatica/jars/calcite-avatica-1.2.0-incubating.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/jars/JavaEWAH-0.3.2.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.iq80.snappy/snappy/jars/snappy-0.2.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/stax/stax-api/jars/stax-api-1.0.1.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.spark-project.hive/hive-metastore/jars/hive-metastore-1.2.1.spark2.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.derby/derby/jars/derby-10.12.1.1.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/jars/datanucleus-api-jdo-3.2.6.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.datanucleus/datanucleus-rdbms/jars/datanucleus-rdbms-3.2.9.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.5.4.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/commons-dbcp/commons-dbcp/jars/commons-dbcp-1.4.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/javax.jdo/jdo-api/jars/jdo-api-3.0.1.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.calcite/calcite-core/jars/calcite-core-1.2.0-incubating.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.calcite/calcite-linq4j/jars/calcite-linq4j-1.2.0-incubating.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/net.hydromatic/eigenbase-properties/bundles/eigenbase-properties-1.1.5.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.4.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.7.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.thrift/libthrift/jars/libthrift-0.9.3.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.thrift/libfb303/jars/libfb303-0.9.3.jar"/>
+  <classpathentry kind="lib" path="/home/hadoop-master/.ivy2/cache/org.apache.spark/spark-sql-kafka-0-10_2.11/jars/spark-sql-kafka-0-10_2.11-2.3.0.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>
